@@ -1,0 +1,77 @@
+.main-container {
+  display: flex;
+}
+
+.faqs {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.heading {
+  font-size: 2.5em;
+  color: white;
+  width: 800px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+.hero-section {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sub-heading {
+  font-size: 30;
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+.api-screen {
+  margin: auto;
+  display: flex;
+  justify-content: centers;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.waitlistt-box {
+  background-color: rgb(246, 244, 244);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.input {
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: white;
+  display: block;
+}
+
+.button {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: lightblue;
+}

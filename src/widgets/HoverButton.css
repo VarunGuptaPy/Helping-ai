@@ -1,0 +1,37 @@
+.button-container {
+  width: 200px;
+  min-height: 100px;
+  background-color: transparent;
+  color: white;
+
+  border-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-container.hovered {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-content {
+  text-align: center;
+}
+
+.button-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-subtitle {
+  font-size: 14px;
+}
+
+.button-arrow {
+  font-size: 30px;
+  font-weight: bold;
+}
